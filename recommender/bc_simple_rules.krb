@@ -1,0 +1,1517 @@
+
+
+
+what_to_buy_under50k_dell_windows
+    use what_to_buy("Dell Latitude 7490 Laptop - Intel Core i7-8650U - 32GB DDR4 - 256GB SSD - 1. AMD Radeon RX 6600 XT - 14inches FHD Display - Backlit KB - Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_under50k_office_dell_windows
+    use what_to_buy("Dell XPS 15 Laptop - Intel Core i9-12900HK - 32GB DDR5 - 256GB SSD - NVIDIA GeForce RTX 3050 Ti 4GB - Backlit KB - Fingerprint Reader - Windows 11 - 15.6 inches FHD+ Display - Platinum Silver - 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+
+what_to_buy_under50k_gaming_dell_windows
+    use what_to_buy("Dell Alienware Gaming m15 R7 - Intel Core i7-12700H, 256GB SSD, 16GB RAM, GeForce RTX 3070 Ti- 15.6-inch QHD 240Hz - Windows 11 - Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+what_to_buy_above50k_dell_windows
+    use what_to_buy("Dell G15 5520 - Intel Core i5-12500H - 8GB DDR5 - 256GB SSD - NVIDIA GeForce RTX 3050 4GB - Backlit KB - Windows 11 - 15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_above50K_office_dell_windows
+    use what_to_buy("Dell Latitude 5530 Laptop - Intel Core i7-1270P 32GB DDR4 256GB SSD GeForce NVIDIA RTX-3070 Backlit KB 15.6 inches FHD Display Windows 11")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+what_to_buy_above50K_gaming_dell_windows
+    use what_to_buy("Dell Alienware m15 R7 Gaming Laptop - AMD Ryzen 9 6900HX - 32GB DDR5 - 256GB SSD - NVIDIA GeForce RTX 3080 Ti - Windows 11 - 15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+what_to_buy_ssd_512_under50k_dell_windows
+    use what_to_buy("Dell Latitude 7490 Laptop - Intel Core i7-8650U - 32GB DDR4 - 512GB SSD - GeForce RTX-1080 - 14inches FHD Display - Backlit KB - Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_under50k_office_dell_windows
+    use what_to_buy("Dell Latitude 7490 Laptop - Intel Core i7-8650U - 32GB DDR4 - 512GB SSD - GeForce RTX-1080 - 14inches FHD Display - Backlit KB - Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_under50k_gaming_dell_windows
+    use what_to_buy("Dell Alienware m15 R7 Gaming Laptop - AMD Ryzen 9 6900HX - 32GB DDR5 - 512GB SSD - NVIDIA GeForce RTX 3080 Ti - Windows 11 - 15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+what_to_buy_ssd_512_above50k_dell_windows
+    use what_to_buy("Dell G15 5520 - Intel Core i5-12500H - 8GB DDR5 - 512GB SSD - NVIDIA GeForce RTX 3050 4GB - Backlit KB - Windows 11 - 15.6 inches FHD 120Hz Display | Dark Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_above50k_office_dell_windows
+    use what_to_buy("Dell Latitude 5530 Laptop - Intel Core i7-1270P 32GB DDR4 512GB SSD GeForce NVIDIA RTX-3070 Backlit KB 15.6 inches FHD Display Windows 11")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_above50k_gaming_dell_windows
+    use what_to_buy("Dell XPS 15 9520 Core i9 12th Generation 32GB RAM 512GB SSD 4GB RTX 3050Ti Touch Windows 11 New")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+
+#till here this is the working of different budgets and different ssds according to each
+#budgets with graphics card being (TRUE) now for graphics card being (FALSE):
+
+what_to_buy_under50k_gc_dell_windows
+    use what_to_buy("Dell Latitude 7490 Laptop - Intel Core i7-8650U - 32GB DDR4 - 256GB SSD - Intel Graphics 5000 - 14inches FHD Display - Backlit KB - Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_under50k_gc_office_dell_windows
+    use what_to_buy("Dell XPS 15 Laptop - Intel Core i9-12900HK - 32GB DDR5 - 256GB SSD - Intel UHD Graphics 4000 - Backlit KB - Fingerprint Reader - Windows 11 - 15.6 inches FHD+ Display - Platinum Silver - 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+
+what_to_buy_under50k_gc_gaming_dell_windows
+    use what_to_buy("Dell G15 5511 Gaming Laptop - Tiger Lake - 11th Gen Core i5 HexaCore Processor 16GB to 32GB 256SSD 4-GB Intel UHD 8000 15.6 inches Full HD 1080p 165Hz 300nits WVA AG Narrow Bezel Display Backlit KB W11 (Dark Shadow Grey)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+what_to_buy_above50K_gc_dell_windows
+    use what_to_buy("Dell G15 5520 - Intel Core i5-12500H - 8GB DDR5 - 256GB SSD - 4GB - Backlit KB - Windows 11 - 15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_above50K_gc_office_dell_windows
+    use what_to_buy("Dell Latitude 5530 Laptop - Intel Core i7-1270P 32GB DDR4 256GB SSD Backlit KB 15.6 inches FHD Display Windows 11")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+what_to_buy_above50K_gc_gaming_dell_windows
+    use what_to_buy("Dell Alienware m15 R7 Gaming Laptop - AMD Ryzen 9 6900HX - 32GB DDR5 - 256GB SSD - Windows 11 - 15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+what_to_buy_ssd_512_above50k_gc_dell_windows
+    use what_to_buy("Dell G15 5520 - Intel Core i5-12500H - 8GB DDR5 - 512GB SSD - 4GB - Backlit KB - Windows 11 - 15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_above50k_gc_office_dell_windows
+    use what_to_buy("Dell Latitude 5530 Laptop - Intel Core i7-1270P 32GB DDR4 512GB SSD Backlit KB 15.6 inches FHD Display Windows 11")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+what_to_buy_ssd_512_above50k_gc_gaming_dell_windows
+    use what_to_buy("Dell Alienware m15 R7 Gaming Laptop - AMD Ryzen 9 6900HX - 32GB DDR5 - 512GB SSD - Windows 11 - 15.6 inches QHD 240Hz 2ms| Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+
+what_to_buy_ssd_512_above50K_gc_dell_windows
+    use what_to_buy("Dell G15 5520 - Intel Core i5-12500H - 8GB DDR5 - 512GB SSD - Intel UHD 7000 - Backlit KB - Windows 11 - 15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_above50K_gc_office_dell_windows
+    use what_to_buy("Dell Latitude 5530 Laptop - Intel Core i7-1270P 32GB DDR4 512GB SSD Backlit KB 15.6 inches FHD Display Windows 11")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_above50K_gc_gaming_dell_windows
+    use what_to_buy("Dell XPS 15 9520 Core i9 12th Generation 32GB RAM 512GB SSD 4GB Touch Windows 11 New")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (1,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+
+
+
+#Lenovo Laptop
+
+what_to_buy_under50k_lenovo_windows
+    use what_to_buy("Lenovo Ideapad 300 i305,Intel Core i5 5th Generation,4GB DDR3,256GB SSD,Nvidia Quadro RTX 4000,14inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_under50k_office_lenovo_windows
+    use what_to_buy("Lenovo Chromebook Duet 2-In-1 Chromebook,MediaTek Helio P60T,32GB DDR5,256GB SSD,Nvidia Quadro RTX 5000,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+
+what_to_buy_under50k_gaming_lenovo_windows
+    use what_to_buy("Lenovo V14 IGL 82C2001QGE Gaming Laptop,Intel Core i7 5th Generation,8GB DDR5,256GB SSD,Nvidia GeForce GTX 1660 Ti,Backlit KB,Windows 11,15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+what_to_buy_above50k_lenovo_windows
+    use what_to_buy("Lenovo Ideapad 15,Intel Celeron,4GB DDR3,256GB SSD,MSI RTX 3090 Gaming X Trio,14inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_above50K_office_lenovo_windows
+    use what_to_buy("Lenovo Ideapad 3,Intel Core i7,32GB DDR5,256GB SSD,AMD Radeon RX 6800,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+what_to_buy_above50K_gaming_lenovo_windows
+    use what_to_buy("Lenovo ThinkPad Gaming Laptop,Intel Core i9,32GB DDR5,256GB SSD,NVIDIA GeForce RTX 3080 Ti,Windows 11,15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+what_to_buy_ssd_512_under50k_lenovo_windows
+    use what_to_buy("Lenovo Ideapad 300 i305,Intel Core i5 5th Generation,4GB DDR3,512GB SSD,Nvidia Quadro RTX 4000,14inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_under50k_office_lenovo_windows
+    use what_to_buy("Lenovo Chromebook Duet 2-In-1 Chromebook,MediaTek Helio P60T,32GB DDR5,512GB SSD,Nvidia Quadro RTX 5000,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_under50k_gaming_lenovo_windows
+    use what_to_buy("Lenovo V14 IGL 82C2001QGE Gaming Laptop,Intel Core i7 5th Generation,8GB DDR5,512GB SSD,Nvidia GeForce GTX 1660 Ti,Backlit KB,Windows 11,15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+what_to_buy_ssd_512_above50k_lenovo_windows
+    use what_to_buy("Lenovo Ideapad 15,Intel Celeron,4GB DDR3,512GB SSD,MSI RTX 3090 Gaming X Trio,14inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_above50k_office_lenovo_windows
+    use what_to_buy("Lenovo Ideapad 3,Intel Core i7,32GB DDR5,512GB SSD,AMD Radeon RX 6800,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_above50k_gaming_lenovo_windows
+    use what_to_buy("Lenovo ThinkPad Gaming Laptop,Intel Core i9,32GB DDR5,512GB SSD,NVIDIA GeForce RTX 3080 Ti,Windows 11,15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+
+#till here this is the working of different budgets and different ssds according to each
+#budgets with graphics card being (TRUE) now for graphics card being (FALSE):
+
+
+what_to_buy_under50k_gc_lenovo_windows
+    use what_to_buy("Lenovo Ideapad 300 i305,Intel Core i5 5th Generation,4GB DDR3,256GB SSD,14inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_under50k_gc_office_lenovo_windows
+    use what_to_buy("Lenovo Chromebook Duet 2-In-1 Chromebook,MediaTek Helio P60T,32GB DDR5,256GB SSD,Intel UHD 5000,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+
+what_to_buy_under50k_gc_gaming_lenovo_windows
+    use what_to_buy("Lenovo V14 IGL 82C2001QGE Gaming Laptop,Intel Core i7 5th Generation,8GB DDR5,256GB SSD,Backlit KB,Windows 11,15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+what_to_buy_above50k_gc_lenovo_windows
+    use what_to_buy("Lenovo Ideapad 15,Intel Celeron,4GB DDR3,256GB SSD,14inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_above50K_gc_office_lenovo_windows
+    use what_to_buy("Lenovo Ideapad 3,Intel Core i7,32GB DDR5,256GB SSD,Intel UHD Graphics 6000,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+what_to_buy_above50K_gc_gaming_lenovo_windows
+    use what_to_buy("Lenovo ThinkPad Gaming Laptop,Intel Core i9,32GB DDR5,256GB SSD,Windows 11,15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+what_to_buy_ssd_512_under50k_gc_lenovo_windows
+    use what_to_buy("Lenovo Ideapad 300 i305,Intel Core i5 5th Generation,4GB DDR3,512GB SSD,Intel Graphics 4000,14inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_under50k_gc_office_lenovo_windows
+    use what_to_buy("Lenovo Chromebook Duet 2-In-1 Chromebook,MediaTek Helio P60T,32GB DDR5,512GB SSD,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_under50k_gc_gaming_lenovo_windows
+    use what_to_buy("Lenovo V14 IGL 82C2001QGE Gaming Laptop,Intel Core i7 5th Generation,8GB DDR5,512GB SSD,Backlit KB,Windows 11,15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+what_to_buy_ssd_512_above50k_gc_lenovo_windows
+    use what_to_buy("Lenovo Ideapad 15,Intel Celeron,4GB DDR3,512GB SSD,14inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_above50k_gc_office_lenovo_windows
+    use what_to_buy("Lenovo Ideapad 3,Intel Core i7,32GB DDR5,512GB SSD,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_above50k_gc_gaming_lenovo_windows
+    use what_to_buy("Lenovo ThinkPad Gaming Laptop,Intel Core i9,32GB DDR5,512GB SSD,Windows 11,15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (2,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+
+
+
+#Hp Latops
+
+
+what_to_buy_under50k_hp_windows
+    use what_to_buy("HP 14s DQ2100TU,Intel Core i3 11th Gen,8GB DDR3,256GB SSD,Nvidia Quadro 2000,18inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_under50k_office_hp_windows
+    use what_to_buy("HP 15s dy3001TU,Core i5 5th Gen,16GB DDR5,256GB SSD,Nvidia Quadro RTX 8000,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+
+what_to_buy_under50k_gaming_hp_windows
+    use what_to_buy("HP 14sfq1092au Gaming Laptop,Ryzen 5 Hexa Core 5500U,32GB DDR5,256GB SSD,Nvidia GeForce GTX 1060,Backlit KB,Windows 11,15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+what_to_buy_above50k_hp_windows
+    use what_to_buy("HP ProBook 635 Aero G7,AMD Ryzen 7 4700U OctaCore,8GB DDR5,256GB SSD,MSI RTX 3090 Gaming X Duo,18inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_above50K_office_hp_windows
+    use what_to_buy("HP EliteBook,Folio x360 1030 G3 8th Gen Ci5 QuadCore,32GB DDR5,256GB SSD,Nvidia GeForce RTX 3080 Ti,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+what_to_buy_above50K_gaming_hp_windows
+    use what_to_buy("HP EliteBook 830 Gaming Laptop,G5 8th Gen Ci5 QuadCore,64GB DDR5,256GB SSD,NVIDIA GeForce RTX 4080 Ti,Windows 11,15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+what_to_buy_ssd_512_under50k_hp_windows
+    use what_to_buy("HP 14s DQ2100TU,Intel Core i3 11th Gen,8GB DDR3,512GB SSD,Nvidia Quadro 2000,18inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_under50k_office_hp_windows
+    use what_to_buy("HP 15s dy3001TU,Core i5 5th Gen,16GB DDR5,512GB SSD,Nvidia Quadro RTX 8000,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_under50k_gaming_hp_windows
+    use what_to_buy("HP 14sfq1092au Gaming Laptop,Ryzen 5 Hexa Core 5500U,32GB DDR5,512GB SSD,Nvidia GeForce GTX 1060,Backlit KB,Windows 11,15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+what_to_buy_ssd_512_above50k_hp_windows
+    use what_to_buy("HP ProBook 635 Aero G7,AMD Ryzen 7 4700U OctaCore,8GB DDR5,512GB SSD,MSI RTX 3090 Gaming X Duo,18inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_above50k_office_hp_windows
+    use what_to_buy("HP EliteBook,Folio x360 1030 G3 8th Gen Ci5 QuadCore,32GB DDR5,512GB SSD,Nvidia GeForce RTX 3080 Ti,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_above50k_gaming_hp_windows
+    use what_to_buy("HP EliteBook 830 Gaming Laptop,G5 8th Gen Ci5 QuadCore,64GB DDR5,512GB SSD,NVIDIA GeForce RTX 4080 Ti,Windows 11,15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+
+#till here this is the working of different budgets and different ssds according to each
+#budgets with graphics card being (TRUE) now for graphics card being (FALSE):
+
+
+what_to_buy_under50k_gc_hp_windows
+    use what_to_buy("HP 14s DQ2100TU,Intel Core i3 11th Gen,8GB DDR3,256GB SSD,18inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_under50k_gc_office_hp_windows
+    use what_to_buy("HP 15s dy3001TU,Core i5 5th Gen,16GB DDR5,256GB SSD,Intel UHD 4000,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+
+what_to_buy_under50k_gc_gaming_hp_windows
+    use what_to_buy("HP 14sfq1092au Gaming Laptop,Ryzen 5 Hexa Core 5500U,32GB DDR5,256GB SSD,Backlit KB,Windows 11,15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+what_to_buy_above50k_gc_hp_windows
+    use what_to_buy("HP ProBook 635 Aero G7,AMD Ryzen 7 4700U OctaCore,8GB DDR5,256GB SSD,18inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_above50K_gc_office_hp_windows
+    use what_to_buy("HP EliteBook,Folio x360 1030 G3 8th Gen Ci5 QuadCore,32GB DDR5,256GB SSD,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+what_to_buy_above50K_gc_gaming_hp_windows
+    use what_to_buy("HP EliteBook 830 Gaming Laptop,G5 8th Gen Ci5 QuadCore,64GB DDR5,256GB SSD,Intel UHD Graphics 8000,Windows 11,15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+what_to_buy_ssd_512_under50k_gc_hp_windows
+    use what_to_buy("HP 14s DQ2100TU,Intel Core i3 11th Gen,8GB DDR3,512GB SSD,18inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_under50k_gc_office_hp_windows
+    use what_to_buy("HP 15s dy3001TU,Core i5 5th Gen,16GB DDR5,512GB SSD,Intel UHD 5000,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_under50k_gc_gaming_hp_windows
+    use what_to_buy("HP 14sfq1092au Gaming Laptop,Ryzen 5 Hexa Core 5500U,32GB DDR5,512GB SSD,Backlit KB,Windows 11,15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+what_to_buy_ssd_512_above50k_gc_hp_windows
+    use what_to_buy("HP ProBook 635 Aero G7,AMD Ryzen 7 4700U OctaCore,8GB DDR5,512GB SSD,Intel UHD 5000,18inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_above50k_gc_office_hp_windows
+    use what_to_buy("HP EliteBook,Folio x360 1030 G3 8th Gen Ci5 QuadCore,32GB DDR5,512GB SSD,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_above50k_gc_gaming_hp_windows
+    use what_to_buy("HP EliteBook 830 Gaming Laptop,G5 8th Gen Ci5 QuadCore,64GB DDR5,512GB SSD,Intel UHD Graphics 4000,Windows 11,15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (1,)
+	check $brand in (3,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+
+
+
+
+# Apple MacOS
+
+
+what_to_buy_under50k_apple_macos
+    use what_to_buy("Apple MacBook Air 2020 Z0YL00174,10th Gen Core I5,8GB DDR5,256GB SSD,Nvidia Quadro RTX 4000,16inches Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_under50k_office_apple_macos
+    use what_to_buy("Apple MacBook Air MQD32HN,Core i5 11th Gen,16GB DDR5,256GB SSD,Nvidia Geforce GTX 4000,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+
+what_to_buy_under50k_gaming_apple_macos
+    use what_to_buy("Apple MacBook Air MWTK2HN Gaming Laptop,1GHz dual core 10th generation,16GB DDR5,256GB SSD,Nvidia GeForce GTX 1080 ti,Backlit KB,Windows 11,15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+what_to_buy_above50k_apple_macos
+    use what_to_buy("Apple MacBook Air M1 MGN63HN Ultrabook,AMD Ryzen 16 5300U OctaCore,32GB DDR5,256GB SSD,RTX 3090 ti,24inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (3,)
+	check $brand in (4,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_above50K_office_apple_macos
+    use what_to_buy("Apple MacBook Air 2022,8 core GPU 16 core Neural Engine,32GB DDR5,256GB SSD,MSI GeForce RTX 3070,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+what_to_buy_above50K_gaming_apple_macos
+    use what_to_buy("Apple MacBook Air MVFJ2HN Gaming Laptop,8th Gen Core I9,64GB DDR5,256GB SSD,NVIDIA GeForce RTX 4080 Ti,Windows 11,15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+
+what_to_buy_ssd_512_under50k_apple_macos
+    use what_to_buy("Apple MacBook Air 2020 Z0YL00174,10th Gen Core I5,8GB DDR5,512GB SSD,Nvidia Quadro RTX 4000,16inches Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_under50k_office_apple_macos
+    use what_to_buy("Apple MacBook Air MQD32HN,Core i5 11th Gen,16GB DDR5,512GB SSD,Nvidia Geforce GTX 4000,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_under50k_gaming_apple_macos
+    use what_to_buy("Apple MacBook Air MWTK2HN Gaming Laptop,1GHz dual core 10th generation,16GB DDR5,512GB SSD,Nvidia GeForce GTX 1080 ti,Backlit KB,Windows 11,15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (1,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+what_to_buy_ssd_512_above50k_apple_macos
+    use what_to_buy("Apple MacBook Air M1 MGN63HN Ultrabook,AMD Ryzen 16 5300U OctaCore,32GB DDR5,512GB SSD,RTX 3090 ti,24inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_above50k_office_apple_macos
+    use what_to_buy("Apple MacBook Air 2022,8 core GPU 16 core Neural Engine,32GB DDR5,512GB SSD,MSI GeForce RTX 3070,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_above50k_gaming_apple_macos
+    use what_to_buy("Apple MacBook Air MVFJ2HN Gaming Laptop,8th Gen Core I9,64GB DDR5,512GB SSD,NVIDIA GeForce RTX 4080 Ti,Windows 11,15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(True)
+        check $budget in (2,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+
+#till here this is the working of different budgets and different ssds according to each
+#budgets with graphics card being (TRUE) now for graphics card being (FALSE):
+
+what_to_buy_under50k_gc_apple_macos
+    use what_to_buy("Apple MacBook Air 2020 Z0YL00174,10th Gen Core I5,8GB DDR5,256GB SSD,16inches Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_under50k_gc_office_apple_macos
+    use what_to_buy("Apple MacBook Air MQD32HN,Core i5 11th Gen,16GB DDR5,256GB SSD,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+
+what_to_buy_under50k_gc_gaming_apple_macos
+    use what_to_buy("Apple MacBook Air MWTK2HN Gaming Laptop,1GHz dual core 10th generation,16GB DDR5,256GB SSD,Backlit KB,Windows 11,15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+what_to_buy_above50k_gc_apple_macos
+    use what_to_buy("Apple MacBook Air M1 MGN63HN Ultrabook,AMD Ryzen 16 5300U OctaCore,32GB DDR5,256GB SSD,24inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (3,)
+	check $os in (3,)
+	check $brand in (4,)
+	check $ssd in (1,)
+	check $use in (1,)
+
+what_to_buy_above50K_gc_office_apple_macos
+    use what_to_buy("Apple MacBook Air 2022,8 core GPU 16 core Neural Engine,32GB DDR5,256GB SSD,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (3,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (1,)
+	check $use in (2,)
+
+what_to_buy_above50K_gc_gaming_apple_macos
+    use what_to_buy("Apple MacBook Air MVFJ2HN Gaming Laptop,8th Gen Core I9,64GB DDR5,256GB SSD,Windows 11,15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (3,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (1,)
+	check $use in (3,)
+
+
+
+what_to_buy_ssd_512_under50k_gc_apple_macos
+    use what_to_buy("Apple MacBook Air 2020 Z0YL00174,10th Gen Core I5,8GB DDR5,512GB SSD,16inches Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_under50k_gc_office_apple_macos
+    use what_to_buy("Apple MacBook Air MQD32HN,Core i5 11th Gen,16GB DDR5,512GB SSD,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_under50k_gc_gaming_apple_macos
+    use what_to_buy("Apple MacBook Air MWTK2HN Gaming Laptop,1GHz dual core 10th generation,16GB DDR5,512GB SSD,Backlit KB,Windows 11,15.6 inches FHD 120Hz Display | Dark Shadow Grey")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (1,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (2,)
+	check $use in (3,)
+
+what_to_buy_ssd_512_above50k_gc_apple_macos
+    use what_to_buy("Apple MacBook Air M1 MGN63HN Ultrabook,AMD Ryzen 16 5300U OctaCore,32GB DDR5,512GB SSD,24inches FHD Display,Backlit KB,Fingerprint Reader (Open Box)")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (2,)
+	check $use in (1,)
+
+what_to_buy_ssd_512_above50k_gc_office_apple_macos
+    use what_to_buy("Apple MacBook Air 2022,8 core GPU 16 core Neural Engine,32GB DDR5,512GB SSD,Backlit KB,Fingerprint Reader,Windows 11,15.6 inches FHD+ Display,Platinum Silver 9520")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (2,)
+	check $use in (2,)
+
+
+what_to_buy_ssd_512_above50k_gc_gaming_apple_macos
+    use what_to_buy("Apple MacBook Air MVFJ2HN Gaming Laptop,8th Gen Core I9,64GB DDR5,512GB SSD,Windows 11,15.6 inches QHD 240Hz 2ms NVIDIA G-SYNC Display | Dark Side of the Moon")
+    when
+        questions.is_budget($budget)
+	questions.is_brand($brand)
+	questions.is_os($os)
+	questions.is_ssd($ssd)
+	questions.is_use($use)
+	questions.is_graphics(False)
+        check $budget in (2,)
+	check $os in (2,)
+	check $brand in (4,)
+	check $ssd in (2,)
+	check $use in (3,)
+

@@ -1,0 +1,52 @@
+#What is your budget for a new desktop PC?
+#What is the primary use for the PC?
+#Do you require a dedicated graphics card?
+#Are you looking for a specific brand?
+
+# questions.kqb
+
+is_budget($budget)
+	Select your budget.
+	---
+	$budget = select_1
+		1: Under Rs. 50k
+		2: Above Rs. 50k
+
+is_os($os)
+        Select the Operating System?
+	---
+	$os = select_1
+		1: Windows
+		2: Mac OS
+		
+is_brand($brand)
+        Select a specific brand?
+	---
+	$brand = select_1
+		1: Dell
+		2: Lenovo
+		3: Hp
+   		4: Apple
+
+is_ssd($ssd)
+        Are you looking for ssd in your pc?
+	---
+	$ssd = select_1
+		1: 256 gb
+		2: 512 gb
+
+is_use($use)
+        What is the specific use for the laptop/PC?
+	---
+	$use = select_1
+		1: personal use
+		2: office use
+		3: gaming
+   		
+is_graphics($graphics)
+	Do you require a graphics card?
+	---
+	$graphics= yn
+
+
+
